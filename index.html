@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+    	<!-- Bootstrap -->
+	    <link href="./src/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<script type="text/javascript" src="./src/js/jquery.js"></script>
+	    <script type="text/javascript" src="./src/js/bootstrap.min.js"></script>
+	    <!-- Original -->
+	    <link href="./src/css/index.css" rel="stylesheet" media="screen">
+		<script type="text/javascript" src="./src/js/index.js"></script>
+		<title>UtimeConverter</title>
+	</head>
+	<body>
+		<div class="container">
+		<h6>
+			UtimeConverter
+		</h6>
+
+		<form class="form-inline">
+		  <div class="control-group">
+		    <label class="control-label label-label">Unix time</label>
+		    <div class="controls">
+		    	<input type="text" id="unixtime" placeholder="unix time">
+		    	<button type="button" id="unix2date" class="btn btn-info">
+		    		Convert
+		  		</button>
+		    </div>
+		  </div>
+		</form>
+		<br>
+		<form class="form-inline">
+		  <div class="control-group">
+		    <label class="control-label label-label">Date time</label>
+		    <div class="controls">
+		    	<input type="text" id="datetime" placeholder="date time">
+		    	<button type="button" id="date2unix" class="btn btn-info">
+		    		Convert
+		    	</button>
+		    </div>
+		  </div>
+		</form>
+		</div>
+	</body>
+</html>
